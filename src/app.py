@@ -104,6 +104,7 @@ def signup_for_activity(activity_name: str, email: str):
             status_code=400,
             detail="Student already signed up for this activity"
         )
+    
 
     # Add student
     activity["participants"].append(email)
